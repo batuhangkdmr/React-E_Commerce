@@ -1,0 +1,40 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+}
+
+.menu-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.bn59 {
+  background-color: #141414;
+  border: 1px solid rgba(54, 54, 54, 0.6);
+  font-weight: 600;
+  position: relative;
+  outline: none;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  height: 45px;
+  width: 130px;
+  opacity: 1;
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.bn59:hover {
+  background-color: #1f1f1f;
+  border-color: rgba(54, 54, 54, 0.8);
+}
+
+.bn59:active {
+  transform: scale(0.95);
+}

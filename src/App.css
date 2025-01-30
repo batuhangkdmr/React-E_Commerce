@@ -1,0 +1,29 @@
+
+.product-detail, .cart {
+  margin: 20px;
+}
+
+.product-detail img, .product-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.product-card, .cart ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.product-card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  text-align: center;
+  width: 200px;
+  border-radius: 8px;
+}
+
+.cart li {
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,51 @@
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+    max-width: 200px;
+    margin: 0 auto;
+  }
+  
+  .product-card img {
+    width: 150px; /* Sabit genişlik */
+    height: 150px; /* Sabit yükseklik */
+    object-fit: cover; /* Görüntüyü çerçeveye sığdır */
+    border-radius: 8px;
+    margin-bottom: 8px;
+  }
+  
+  .product-card h3 {
+    font-size: 18px;
+    margin: 8px 0;
+  }
+  
+  .product-card p {
+    font-size: 16px;
+    color: #555;
+  }
+
+  
+  .product-card .add-to-cart-btn {
+    background-color: #141414;
+    color: #ffffff;
+    border: 1px solid rgba(54, 54, 54, 0.6);
+    font-weight: 600;
+    position: relative;
+    outline: none;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    height: 35px;
+    width: 90px;
+    opacity: 1;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+  }
+  
+  .product-card .add-to-cart-btn:hover {
+    background-color: #333333;
+  }
+  

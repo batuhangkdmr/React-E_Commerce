@@ -1,0 +1,26 @@
+Proje Önerisi:
+Proje Adı: E-Ticaret Uygulaması
+
+Proje Amacı ve Hedefleri: Bu proje, çevrimiçi alışveriş deneyimini kullanıcılar için daha pratik ve kolay hale getirmeyi amaçlayan bir e-ticaret platformu geliştirmeyi hedefler. Kullanıcıların çeşitli kategorilerdeki ürünleri arayıp inceleyebileceği, sepetlerine ekleyebileceği ve daha sonrasında yönetici paneli üzerinden ürün yönetimi yapabileceği kapsamlı bir web uygulamasıdır.
+
+Hedef Kitle:
+
+Kendi ürünlerini çevrimiçi ortamda satmak isteyen küçük ve orta ölçekli işletmeler.
+Hızlı ve kolay bir şekilde ürün aramak ve satın almak isteyen müşteriler.
+Kapsam ve Kullanılan Teknolojiler:
+
+Frontend: React.js, React Router, Context API, useReducer, CSS Module.
+Backend: JSON Server kullanılarak temel API operasyonları (CRUD) simüle edilmiştir.
+Durum Yönetimi: React Context API ve useReducer kullanarak uygulama genelinde merkezi veri yönetimi sağlanmıştır.
+Proje Özellikleri:
+
+Ürün Listeleme ve Filtreleme: Kullanıcılar, ürünleri çeşitli kategorilere göre filtreleyebilir ve detaylarına ulaşabilir.
+Sepet Yönetimi: Ürünler sepete eklenebilir, adetleri değiştirilebilir veya tamamen kaldırılabilir.
+Yönetim Paneli: Admin paneli aracılığıyla yeni ürün ekleme, güncelleme ve silme işlemleri gerçekleştirilebilir.
+Arama Fonksiyonu: Ürünler isimleriyle aranabilir ve filtrelenebilir.
+Responsive Tasarım: Kullanıcı dostu ve mobil uyumlu bir arayüz sağlanmıştır.
+Hedefler ve Geliştirme Potansiyeli:
+
+Kullanıcılar için ödeme entegrasyonu sağlamak.
+Kullanıcı profili ve sipariş geçmişi oluşturmak.
+Gelişmiş filtreleme özellikleri eklemek (fiyat aralığı, marka seçimi vb.).

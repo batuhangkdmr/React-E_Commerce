@@ -1,0 +1,18 @@
+.notification {
+    position: fixed;
+    top: 20px;
+    right: 50%;
+    background-color: #4CAF50; /* Yeşil renk */
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-size: 16px;
+    z-index: 1000;
+    transition: opacity 0.3s ease;
+  }
+  
+  .notification.fade-out {
+    opacity: 0;
+  }
+  
